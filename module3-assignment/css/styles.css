@@ -1,0 +1,49 @@
+#header-nav {
+  border-radius: 0;
+  border: 0;
+  background-color: gray;
+}
+
+#brand{
+  padding-top: 10px;
+  color: black;
+  font-size: 2em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header button span{
+  border: 1px solid black;
+}
+
+.navbar-nav{
+  background-color: white;
+  border: 1px solid black;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.navbar-nav>li>a:hover, .navbar-nav>li>a:active{
+  background: gray;
+}
+.navbar-nav>li>a{
+  border: 1px solid black;
+  text-align: center;
+}
+
+#menu{
+  margin-top: 75px;
+}
+
+.box{
+  background-color: gray;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#chicken-box, #beef-box, #sushi-box{
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 1.4em;
+  font-weight: bold;
+}
